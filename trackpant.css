@@ -1,0 +1,136 @@
+
+.header
+{
+	margin: 30px;
+	padding: 10px;
+	background: #000;
+	color: #fff;
+	text-align: center;
+}
+
+.container
+{
+	width: 95%;
+	overflow: hidden;
+	background: skyblue;
+	margin: 20px auto;
+	padding: 20px 0px;
+}
+
+.container ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+.container ul li
+{
+	list-style: none;
+	float: left;
+	width: 20%;
+	height: 400px;
+	margin: 40px 20px 0px 40px;
+	box-sizing: border-box;
+	border: 2px solid white;
+}
+
+.container ul li:hover
+{
+	opacity: 0.9;
+}
+
+.container ul li .price:hover
+{
+	background: blue;
+	color: white;
+}
+
+#img1
+{
+	width: 100%;
+	height: 350px;
+}
+input
+{
+	width: 100%;
+	height: 350px;
+}
+#img2
+{
+	width: 100%;
+	height: 350px;
+}
+#img3
+{
+	width: 100%;
+	height: 350px;
+}
+#img4
+{
+	width: 100%;
+	height: 350px;
+}
+#img5
+{
+	width: 100%;
+	height: 350px;
+}
+#img6
+{
+	width: 100%;
+	height: 350px;
+}
+#img7
+{
+	width: 100%;
+	height: 350px;
+}
+#img8
+{
+	width: 100%;
+	height: 350px;
+}
+
+.container ul li .image
+{
+	width: 100%;
+	height: 350px;
+	line-height: 50px;
+	background: red;
+}
+
+.container ul li .price
+{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: red;
+	color: white;
+	text-align: center;
+}
+
+
+
+@media screen and (max-width: 1250px)
+{
+	.container ul li
+	{
+		width: 40%;
+		margin-left: 50px;
+	}
+}
+
+@media screen and (max-width: 768px)
+{
+	.container
+	{
+		width: 100%;
+		padding: 0;
+	}
+	.container ul li
+	{
+		float: none;
+		width: 90%;
+		margin: 40px auto;
+	}
+}
